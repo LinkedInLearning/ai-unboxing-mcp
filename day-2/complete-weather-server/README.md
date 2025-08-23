@@ -40,9 +40,14 @@ deactivate
 
 ### 3. Set the VS Code python environment
 
-1. Open the Command Palette Shift + CMD/CTRL + P
-2. Select "Python: Set Project Environment
-3. Choose `mcp-open-meteo` venv
+* Install the Python extension (if not already installed):
+ Go to Extensions (Ctrl+Shift+X), search for "Python", and install the one by Microsoft.
+
+* Open the Command Palette (Ctrl+Shift+P).
+
+* Type and select: Python: Select Interpreter.
+
+* Choose your environment: Select the interpreter that points to your .venv (it may show as .venv\Scripts\python.exe or similar).
 
 ### 4. Run MCP server in dev mode with the [MCP Inspector](https://github.com/modelcontextprotocol/inspector)
 
